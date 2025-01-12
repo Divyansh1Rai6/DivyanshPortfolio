@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(1, 6, 78);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(33, 40, 134);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(192, 192, 238);
+    font-size: 1.02rem;
+}
+
+header {
+    position: sticky;
+}
+
+#element {
+    color: hsl(51, 100%, 50%);
+}
+
+.left {
+    font-size: 1.6rem;
+}
+
+.right ul li {
+    font-weight: bold;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0px;
+    width: 80%;
+}
+
+.firstSection {
+    width: 81%;
+}
+
+.leftSection {
+    font-size: 3rem;
+    margin: 70px 81px;
+}
+
+.rightSection img {
+    width: 140%;
+    margin-left: 60px;
+}
+
+.rightSection {
+    margin-top: -61px;
+}
+
+.gold {
+    color: hsl(51, 100%, 50%);
+}
+
+hr {
+    width: 92%;
+    margin-left: 56px;
+    margin-top: -72px;
+    border: 0;
+    height: 3px;
+    background: hsl(51, 100%, 50%);
+}
+
+.secondSection h1 {
+    margin: 5px 81px;
+    font-size: 1.7rem;
+}
+
+.secondSection p {
+    margin: 5px 82px;
+}
+
+.myProjects h1 {
+    margin: 33px 147px;
+    padding: 15px 17px;
+}
+
+.myProjects a {
+    margin: 50px 153px;
+    text-decoration: none;
+    color: hsl(51, 100%, 50%);
+    font-size: 1.1rem;
+    display: list-item;
+    font-size: 2rem;
+}
+
+.details {
+    margin: 75px 36px;
+    font-size: 2.02rem;
+    text-align: center;
+}
+
+.details ul li {
+    list-style: none;
+    margin: 45px 60px;
+}
+
+.about-portfoilo h1 {
+    margin: 40px 149px;
+}
+
+.about-portfoilo p {
+    margin: 47px 74px;
+    font-size: 1.5rem;
+}
